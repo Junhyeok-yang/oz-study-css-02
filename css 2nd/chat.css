@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    font-family: Nanum Pen Script, monospace;
+
 }
 html{
     height: 100%;
@@ -39,8 +41,12 @@ body{
     margin: 5px;
 }
 .user__count{
-    font-size: 12px;
+    font-size: 20px;
     color: grey;
+}
+
+.user__nick{
+    font-size: 20px;
 }
 
 .chat-form{
@@ -56,7 +62,7 @@ body{
     height: 120px;
     border: none;
     resize: none;
-    font-size: 24px;
+    font-size: 36px;
     padding: 10px;
 }
 
@@ -66,7 +72,7 @@ body{
     height: 120px;
     border-radius: 10px;
     background-color: aquamarine;
-    font-size: 18px;
+    font-size: 27px;
     text-align: center;
 }
 
